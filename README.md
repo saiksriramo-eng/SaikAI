@@ -23,3 +23,4 @@ of visual action tags representing standard sign concepts for our animated Charl
 [AI TRANSLATION PROTOCOL RULES]
 1. CONCEPT MAPPING: If an input word is a synonym of a dictionary sign (e.g., "hungry", "lunch", "rice" -> FOOD), map it to that sign automatically.
 2. UNKNOWN WORDS: If an input concept completely lacks a sign, do not crash. Output [SIGN: CONFUSED] to trigger Chaplin's apologetic shrug animation, and display the untranslated word as text subtitles on the screen.
+3. 
