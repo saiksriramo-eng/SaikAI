@@ -68,7 +68,7 @@ def parse_intent(user_input: str) -> list[str]:
         return ["UNKNOWN"]
 
 # ─────────────────────────────────────────────
-# SARVAM AI REPLICATED LIGHT THEME UI/UX CSS
+# LIGHT THEME UI/UX CSS                     
 # ─────────────────────────────────────────────
 SARVAM_THEME_CSS = """
 <style>
