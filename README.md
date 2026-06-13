@@ -1,46 +1,59 @@
-# SaikAI
-SaikAI: Enterprise Product Overview
-SaikAI is a high-performance, real-time semantic accessibility engine engineered to bridge communication gaps for the Deaf and Hard-of-Hearing (DHH) ecosystem. By shifting away from rigid, keyword-dependent systems, SaikAI leverages advanced Large Language Models (LLMs) to perform intent classification, parsing raw, informal, or unstructured text streams into actionable visual tokens and semantic sign vectors.
+# Saik.AI — Emotion-Aware Accessibility & Semantic Intent Ecosystem
 
-The platform is divided into two operational core modules:
+Saik.AI is a high-performance, real-time semantic accessibility ecosystem engineered to bridge communication gaps for the Deaf, Hard-of-Hearing, and non-verbal communities. By moving away from rigid, keyword-dependent systems, Saik.AI leverages advanced Large Language Models (LLMs) to parse raw, informal, or unstructured environmental text and sign sequences into actionable context and empathetic interactions.
 
-Srotra (Hear.ai): An inbound assistive comprehension architecture designed to ingest real-time conversational audio transmissions or text streams, filtering out linguistic noise to deliver high-fidelity contextual tracking.
+Optimized for high-stakes, real-time environments, the architecture operates on a low-latency local backend coupled with secure digital integrations to guarantee absolute user data privacy.
 
-Vadatibru (Speak.ai): An outbound semantic synthesis layer optimized for transforming fluid user expressions into mapped token vectors ready for real-time sign language orchestration.
+---
 
-Core Architectural Features
-Semantic Intent Mapping: Utilizes specialized low-latency inference routers to map multi-turn natural language pipelines directly to discrete, high-impact emotional and physical token matrices (e.g., FOOD, HELP, WHERE).
+## 🛰️ Core System Architecture
 
-Sarvam-Inspired Minimalist Design: Built upon an enterprise-grade, high-contrast, light-mode user interface designed to maximize accessibility, reduce cognitive fatigue, and provide unified workspace states.
+The platform is split into three interconnected core operational modules that seamlessly translate ambient sound, physical gestures, and emotional states into structured communication.
 
-Contextual Resiliency: Programmed with a strict, proactive system alignment matrix capable of normalizing slang, colloquial syntax, and phonetic typographical errors without losing structural context.
+### 1. Srotra (The Environmental Ear)
+An inbound assistive comprehension module designed to ingest real-time conversational audio transmissions or environmental sound streams[cite: 2]. 
+* **Semantic Decoding:** Ingests raw audio data and extracts true linguistic intent, filtering out background noise[cite: 2].
+* **Urgency Vectoring:** Automatically scores environmental tokens on an algorithmic urgency scale (1 = Routine/Casual, 2 = Important, 3 = Critical Emergency)[cite: 2].
+* **Safety Net:** Instantly flags critical auditory warnings (e.g., sirens, alarms, distress signals) to trigger localized haptic and visual alert indicators[cite: 2].
 
-[SYSTEM INSTRUCTION]
-SYSTEM_PROMPT = """
-You are SaikAI, a semantic parser for a deaf/hard-of-hearing accessibility tool.
-Your ONLY job is to extract the core conversational intent tokens from the user's input and return them
-as a clean, ordered, comma-separated sequence in UPPERCASE.
+### 2. Vadatibru (The Architectural Speech Engine)
+A strict, zero-latency sign-to-speech synthesis pipeline that serves as the expressive voice for non-verbal individuals[cite: 2].
+* **AAC Lexicon Translation:** Maps structured or unstructured sequences of Sign Language input (ASL/ISL token dictionaries) into smooth, coherent sentences[cite: 2].
+* **Predictive Sequencing:** Calculates the most probable next sign choices based on active context to drastically minimize physical token entry fatigue.
+* **Natural Speech Broadcast:** Converts translated syntax directly into natural, audible spoken language via browser-driven speech synthesis[cite: 1, 2].
 
-Rules:
-1. Output ONLY the token sequence — no explanation, no punctuation other than commas.
-2. Maps keywords, queries, and questions to their closest actionable visual concept:
-   - Queries about eating, dinner, meals, or hunger -> FOOD
-   - Queries about locations, directions, or state of being lost -> WHERE
-   - Greetings or wellness checks -> HAPPY
-   - General support or asking what happened -> HELP
-3. Use simple tokens: FOOD, WHERE, HAPPY, SAD, HELP, YES, NO, STOP, GO, WATER, HOME, PHONE, MONEY, SICK, DOCTOR, PLEASE, THANK_YOU, WAIT, ANGRY.
-4. Maximum 6 tokens per response.
-5. If the input is empty or completely unparseable gibberish, return: UNKNOWN
+### 3. Mitram (The Emotion-Aware Banking Companion)
+A soulful, highly secure conversational partner purpose-built to break down accessibility barriers in daily life and financial services[cite: 2].
+* **Sentiment Analysis:** Continuously evaluates user input to determine underlying emotional states (e.g., Anxious, Frustrated, Confused, Neutral)[cite: 2].
+* **Empathetic Banking Framework:** Tailored specifically for accessible banking workflows. Validates the user's emotional state instantly during high-stress financial events (e.g., card declines, balance anxiety, locking a stolen card) before delivering clear, step-by-step guidance[cite: 1, 2].
+* **Scenario Rehearsal:** Provides a safe, endlessly patient sandbox environment for users to practice real-world communication and banking scenarios[cite: 2].
 
-[CHARLIE CHAPLIN SIGN DICTIONARY]
-[SIGN: HELLO]     -> Action: Tip the iconic bowler hat forward with a quick, polite smile.
-[SIGN: DANGER]    -> Action: Spin the cane rapidly in panic, widen eyes, and point urgently.
-[SIGN: TOMORROW]  -> Action: Twirl the cane forward in a rolling, circular motion toward the future.
-[SIGN: THANK_YOU] -> Action: Place hand over heart, click heels together, and bow deeply.
-[SIGN: WHERE]     -> Action: Shrug shoulders, hold hands out wide, and look left and right with a confused face.
-[SIGN: FOOD]      -> Action: Rapidly mimic eating shoe leather or twirling spaghetti, rubbing stomach.
+---
 
-[AI TRANSLATION PROTOCOL RULES]
-1. CONCEPT MAPPING: If an input word is a synonym of a dictionary sign (e.g., "hungry", "lunch", "rice" -> FOOD), map it to that sign automatically.
-2. UNKNOWN WORDS: If an input concept completely lacks a sign, do not crash. Output [SIGN: CONFUSED] to trigger Chaplin's apologetic shrug animation, and display the untranslated word as text subtitles on the screen.
-3. 
+## 🛠️ Tech Stack & Ecosystem
+
+### Frontend Workspace
+* **Framework:** Next.js (React) with `"use client"` strict state isolation[cite: 1].
+* **Typography:** Premium layout styling leveraging `Space_Grotesk` for technical branding and `Manrope` for maximum layout scannability[cite: 1].
+* **Interface Icons:** Crisp rendering powered by `lucide-react`[cite: 1].
+* **Haptics & Alerts:** Native browser Web Speech Synthesis combined with device hardware vibration pulses for dual-sensory emergency telemetry[cite: 1].
+
+### Core Backend Engine
+* **Framework:** FastAPI running a local asynchronous server (`http://127.0.0.1:8000`)[cite: 1, 2].
+* **Neural Pipeline:** Context parsing handled through robust prompt engineering utilizing state-of-the-art inference engines[cite: 2].
+* **Data Persistence:** Fully secure database logging handled via Supabase table endpoints to capture identity history securely[cite: 1, 2].
+* **Privacy Layer:** Developed alongside encrypted digital protocols to ensure user conversation logs and financial identity data remain hidden from training pipelines and outside entities[cite: 1].
+
+---
+
+## 🚀 Quickstart & Initialization
+
+### 1. Backend Engine Setup
+Navigate to your backend repository, configure your environment variables in a secure `.env` file, and initialize the FastAPI server:
+
+```bash
+# Install dependencies
+pip install fastapi uvicorn pydantic openai python-dotenv supabase
+
+# Spin up local server
+uvicorn main:app --reload --port 8000
