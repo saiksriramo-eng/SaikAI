@@ -23,11 +23,11 @@ A strict, zero-latency sign-to-speech synthesis pipeline that serves as the expr
 * **Natural Speech Broadcast:** Converts translated syntax directly into natural, audible spoken language via browser-driven speech synthesis[cite: 1, 2].
 
 ### 3. Mitram (The Emotion-Aware Banking Companion)
-A soulful, highly secure conversational partner purpose-built to break down accessibility barriers in daily life and financial services[cite: 2].
-* **Sentiment Analysis:** Continuously evaluates user input to determine underlying emotional states (e.g., Anxious, Frustrated, Confused, Neutral)[cite: 2].
-* **Empathetic Banking Framework:** Tailored specifically for accessible banking workflows. Validates the user's emotional state instantly during high-stress financial events (e.g., card declines, balance anxiety, locking a stolen card) before delivering clear, step-by-step guidance[cite: 1, 2].
-* **Scenario Rehearsal:** Provides a safe, endlessly patient sandbox environment for users to practice real-world communication and banking scenarios[cite: 2].
-
+A soulful, highly secure conversational partner purpose-built to break down accessibility barriers in daily life.
+A warm, AI-driven personal companion purpose-built to provide a supportive space for daily interaction and social growth.
+* **Emotional Check-ins:** Continuously evaluates user input to provide empathetic, balanced, and validating responses that prioritize the user's emotional well-being.
+* **Communication Sandbox:** Serves as a low-pressure environment for users to rehearse real-world social or professional conversations, helping build confidence in daily communication.
+* **Consistent Support:** Acts as a patient, always-available partner that helps break down complex thoughts or worries into manageable, actionable steps.
 ---
 
 ## 🛠️ Tech Stack & Ecosystem
